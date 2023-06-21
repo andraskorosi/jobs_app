@@ -8,6 +8,8 @@ const useFetch = (endpoint, query) => {
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState(null)
 
+  // TODO: import api key from env
+  
   // const options = {
   //   method: 'GET',
   //   url: `https://jsearch.p.rapidapi.com/${endpoint}`,
